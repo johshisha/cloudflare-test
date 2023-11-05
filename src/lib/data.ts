@@ -1,9 +1,5 @@
 import { unstable_noStore } from "next/cache";
-
-type User = {
-  name: string;
-  avatar: string;
-};
+import { User } from "./schema";
 
 export async function getUsers(): Promise<User[]> {
   unstable_noStore();
