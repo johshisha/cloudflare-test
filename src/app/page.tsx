@@ -10,7 +10,7 @@ export default async function Home() {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div>
         <h1 className="text-4xl font-bold text-center">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="https://nextjs.org">Next.js!!</a>
         </h1>
         <div className="flex flex-wrap justify-center max-w-4xl mt-6 sm:w-full">
           {users.map((user) => {
